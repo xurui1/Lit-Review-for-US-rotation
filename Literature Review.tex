@@ -4,8 +4,9 @@
 \usepackage{graphicx}
 \usepackage{cite}
 \usepackage{indentfirst}
-%\usepackage{float}
-\usepackage{floatrow}%
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+%\usepackage{floatrow}%
 \graphicspath{ {images/} }
 \usepackage{fixltx2e} %for subscript
 \usepackage[margin=0.6in]{geometry}
@@ -29,44 +30,36 @@
 
 \section{Introduction}
 
-This project aims to use ultrasound and microbubbles to open the human Blood-Spinal Cord Barrier (BSCB). This work will build on previous work that used ultrasound and microbubbles to open the Blood Brain Barrier (BBB) in humans, as well as previous BSCB work in animal models
-.
+This project aims to use focused ultrasound and microbubbles to open the human Blood-Spinal Cord Barrier (BSCB). This project will build on previous work that used ultrasound and microbubbles to open the Blood Brain Barrier (BBB) in humans, as well as previous BSCB work in animal models. The primary goal of the first rotation is to build a simulation for ultrasound propagation to the spinal cord to optimize the design of an ultrasound transducer specific to this BSCB application. 
 
-\section{The Blood Spinal Cord Barrier}
+\section{Anatomy and Physiology of the Spine}
 
-In this section, I discuss the morphology and clinical implications of the BSCB. \\
+To begin, we discuss the various aspects of the spine that will be important for this project. There are two main components of the spine that we will consider - the vertebral column and the spinal cord.
 
-Notes from Bartanusz \cite{bartanusz2011blood}.\\
-The BBB and the BSCB share the same morphological building blocks, but the BSCB is generally considered to be a separate entity\\
-The BSCB is constructed from nonfenestrated endothelial cells linked with tight junctions, and their accessory structures (basement membrane, pericytes, astrocytic end feet processes)\\
-Differences between BBB and BSCB include glycogen deposits in the microvessels of the spinal cord \cite{sharma2005pathophysiology} (function not known), BSCB permeability is different (more permeable? Yes for cytokines). \\
-Increase in BSCB permeability possibly due to decreased expression of tight junction-associated proteins.\\
-Dynamic Contrast-enhanced Magnetic Resonance Imaging is good for evaluating BSCB permeability.\\
+\subsection{The Vertebral Column}
+The spine vertebral is composed of irregular bones called vertebrae. Each vertebrae has a body, a centrum, and a vertebral (neural) arch. The body is composed of cancellous (trabecular) bone, and covered in cortical (compact) bone. Bone generally consists of bone matrix, which is approximatepy 35$\%$ organic and $65\%$ inorganic material, by weight. Organic material is primarily collagen and proteoglycans. The inorganic material consists primarily of hydroxyapatite (Ca$_{10}$(PO$_4$)$_6($OH$)_2$. Bone tisse is classified as either woven or cancellous, otherwise known as lamellar. Lamellar bone is mature bone organized into lamellae approximately 3-7$\mu$m thick. Bone can also be classified by the volume fraction of the bone. Spongy bone consists of interconnecting rods and plates called trabeculae, and the space between the trabeculae is filled with blood vessels and bone marrow in living organisms. Compact bone has more bone matrix than spongy bone \cite{vanputte2016seeley}. 
+
+There are thirty three vertebrae in the vertebral column - seven cervical, twelve thoracic, five lumbar, and five fused sacral vertebra. Each vertebra has a spinous process on the posterior side, transverse processes on the lateral sides, and various facets for interactions with neighbouring vertebrae and ribs in the case of thoracic vertebra. An annotated diagram of a vertebra is shown in Figure \ref{vertebra}.
+\begin{figure}[H]\label{vertebra}
+\centering
+\includegraphics[scale=0.25]{vertebrae}
+\caption{An annotated diagram of a thoracic vertebra, from \href{https://commons.wikimedia.org/wiki/File:Vertebra_Superior_View-en.svg}{Wikimedia Commons}.} 
+\end{figure}
+
+The body of the vertebra is roughly disk shaped, and usually the largest part with superior and inferior flat surfaces. The body forms the anterior wall of the vertebral foramen, and vertebral disks are located between the bodies of two vertebrae. The vertebral foramen is the hole in each vertebra through which the spinal cord passes, and the vertebral canal is composed of adjacent vertebral foramen. The vertebral arch forms the lateral and posterior walls of the vertebral foramen, and is decorated with spinous, articular, and transverse processes, as well as multiple articular surfaces. The anatomy of the vertebral arch is further broken down into the pedicle, lamina, and various processes. THe pedicle is the foot of the vertebral arch, with one on each side of the arch. The lamina is the posterior part of the arch, which forms the posterior wall of the vertebral foramen. The transverse processes projects laterally from the junction of the pedicle and lamina, and are sites for muscle attachment. The spinous process projects posteriorly from the junction of the two lamina, is a site for muscle attachment, and also strengthens the vertebral column and allows for movement. Each vertebrae has inferior and superior processes with facets where vertebrae articulate with one another. There are also intervertebral notches, which form intervertebral foramina between two adjacent vertebrae for spinal nerves to exit the vertebral foramen.
+
+
+\subsection{The Spinal Cord}
+The central nervous system is composed of the brain and the spinal cord. The spinal cord serves as a conduit for motor control output and sensory input, as well as a central processing centre for certain reflexes. Similarly to the brain`s BBB, the spinal cord has a BSCB. The BBB and BSCB are constructed of the same morphological building blocks, but physiological differences between the two mean that the BSCB is considered a separate entity \cite{bartanusz2011blood}
+
+Similarly to the BBB, the BSCB is constructed from nonfenestrated endothelial cells linked with tight junctions, and their accessory structures (basement membrane, pericytes, astrocytic end feet processes). However, the BSCB has glycogen deposits in the microvessels of the spinal cord, and the BSCB has slighly increased permeability cite{sharma2005pathophysiology}. This increase in BSCB permeability possibly due to decreased expression of tight junction-associated proteins.
+
+The BSCB is thought to be
 BSCB and disease - most well studied is BSCB after traumatic spinal cord injury. Can result in Syringomylia.\\
 ALS - increased endothelial cell membrane permeablility rather than disintegration of tight junctions?\\
 Spinal Cord Ischemia - increases vascular permeability, but effects in BSCB not well known.\\
 BSCB and disease - BSCB disfunction can be primary cause (radiation-induced myelopathy, ALS, MS, NMO), or a secondary mechanism\\
 Methods for drug delivery: Most obvious is local, intrathecal route, but highly invasive. Drug delivery systems include BDNF delivery, nanoparticle carriers with attached biomolecules, and ... ultrasound and microbubbles! (not mentioned in article).
-
-
-\section{The vertebral column}
-
-Bone canatomy and physiology review, from Seeley's Anatomy and physiology \cite{vanputte2016seeley}.
-Bone matrix is generally 35$\%$ organic and $65\%$ inorganic material, by weight. Organic material is primarily collagen and proteoglycans. The inorganic material consists primarily of hydroxyapatite (Ca$_{10}$(PO$_4$)$_6($OH$)_2$. 
-Bone tisse is classified as either woven or lamellar. In woven bone, the collagen fibers are randomly oriented, and later reformed into lamellar bone. Lamellar bone is mature bone organized into thin lamellae approximately 3-7$\mu$m thick. Bone can also be classified by the volume fraction of the bone. Spongy bone consists of interconnecting rods and plates called trabeculae, and the space between the trabeculae is filled with blood vessels and bone marrow in living organisms. Compact bone has more bone matrix than spongy bone. 
- 
-
-The spine (vertebral column) is composed of irregular bones called vertebrae. Each vertebrae has a body, a centrum, and a vertebral (neural) arch. The body is composed of cancellous (trabecular) bone, and covered in cortical (compact) bone. There are thirty three vertebrae in the vertebral column - seven cervical, twelve thoracic, five lumbar, and five fused sacral vertebrae. Each vertebrae has a spinous process on the posterior side, and transverse processes $\pm \pi/4$ radians from the spinous process.  
-
-The body is disk shaped, and usually the largest part with superior and inferior flat surfaces. The body forms the anterior wall of the vertebral foramen, and vertebral disks are located between the bodies of two vertebrae.\\
-Vertebral foramen: The hole in each vertebra through which the spinal cord passes. The vertebral canal is composed of adjacent vertebral foramen.\\
-Vertebral arch: Forms the lateral and posterial walls of the vertebral foramen, with spinous and articular and transverse processes as well as multiple articular surfaces.\\
-Pedicle: The foot of the vertebral arch, with one on each side of the arch. \\
-Lamina: Posterior part of the arch, which forms the posterior wall of the vertebral foramen.\\
-Transverse process: Process that projects laterally from the junction of the pedicle and lamina, and is a site for muscle attachment.
-Spinous process: Process that projects posteriorly from the junction of the two lamina, and is also a site for muscle attachment, and also strenghtens the vertebral column and allows for movement.
-Articular processes: Each vertebrae has inferior and superior processes with facets where vertebrae articulate with one another. Also allows for movement.
-Intervertebral notches: Form intervertebral foramina between two adjacent vertebrae for spinal nerves to exit the vertebral foramen.
 
 
 \section{Ultrasound and the Spine}

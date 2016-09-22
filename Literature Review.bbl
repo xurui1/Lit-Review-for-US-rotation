@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{vanputte2016seeley}
+C.~VanPutte, {\em Seeley's anatomy \& physiology}.
+\newblock McGraw-Hill Higher Education, 2016.
+
 \bibitem{bartanusz2011blood}
 V.~Bartanusz, D.~Jezova, B.~Alajajian, and M.~Digicaylioglu, ``The
   blood--spinal cord barrier: morphology and clinical implications,'' {\em
@@ -9,10 +13,6 @@ V.~Bartanusz, D.~Jezova, B.~Alajajian, and M.~Digicaylioglu, ``The
 H.~S. Sharma, ``Pathophysiology of blood-spinal cord barrier in traumatic
   injury and repair,'' {\em Current pharmaceutical design}, vol.~11, no.~11,
   pp.~1353--1389, 2005.
-
-\bibitem{vanputte2016seeley}
-C.~VanPutte, {\em Seeley's anatomy \& physiology}.
-\newblock McGraw-Hill Higher Education, 2016.
 
 \bibitem{weber2015gene}
 D.~Weber-Adrian, E.~Th{\'e}venot, M.~O'Reilly, W.~Oakden, M.~Akens, N.~Ellens,
@@ -94,5 +94,11 @@ B.~Vafaeian, M.~El-Rich, T.~El-Bialy, and S.~Adeeb, ``The finite element method
 B.~E. Treeby and T.~Saratoon, ``The contribution of shear wave absorption to
   ultrasound heating in bones: Coupled elastic and thermal modeling,'' in {\em
   Ultrasonics Symposium (IUS), 2015 IEEE International}, pp.~1--4, IEEE, 2015.
+
+\bibitem{treeby2014modeling}
+B.~E. Treeby and B.~Cox, ``Modeling power law absorption and dispersion in
+  viscoelastic solids using a split-field and the fractional laplaciana),''
+  {\em The Journal of the Acoustical Society of America}, vol.~136, no.~4,
+  pp.~1499--1510, 2014.
 
 \end{thebibliography}

@@ -1,49 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: Literature Review.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Literature Review.aux
 The style file: ieeetr.bst
 Database file #1: lit.bib
 Warning--can't use both volume and number fields in wachsmuth2009feasibility
 Warning--empty journal in duck1990physical
-You've used 18 entries,
-            1876 wiz_defined-function locations,
-            606 strings with 7418 characters,
-and the built_in function-call counts, 6065 in all, are:
-= -- 631
-> -- 217
-< -- 0
-+ -- 80
-- -- 62
-* -- 441
-:= -- 823
-add.period$ -- 19
-call.type$ -- 18
-change.case$ -- 17
-chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 311
-empty$ -- 539
-format.name$ -- 62
-if$ -- 1484
-int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 19
-newline$ -- 58
-num.names$ -- 18
-pop$ -- 43
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 245
-stack$ -- 0
-substring$ -- 507
-swap$ -- 156
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 62
-width$ -- 20
-write$ -- 192
 (There were 2 warnings)
