@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.15)  22 SEP 2016 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.15)  22 SEP 2016 18:16
 entering extended mode
 **"./Literature Review.tex"
 ("Literature Review.tex"
@@ -404,7 +404,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 [1
 
 {C:/Users/Rui/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<images/vertebrae.png, id=48, 2007.5pt x 1224.575pt>
+<images/vertebrae.png, id=40, 2007.5pt x 1224.575pt>
 File: images/vertebrae.png Graphic file (type png)
 
 <use images/vertebrae.png>
@@ -415,45 +415,51 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.48 
-      [1]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-[2 <./images/vertebrae.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 80--86
+      [1] [2 <./images/vertebrae.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 127--133
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 105--111
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--141
 
  []
 
-[5] [6] [7] [8] ("Literature Review.bbl" [9])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+[6]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] ("Literature Review.bbl" [8])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  ("Literature Review.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `"Literature Review".out' has not changed.
-(rerunfilecheck)             Checksum: 7444D3B008E2C6569D1F3B62BCAF8853;540.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
+(rerunfilecheck)             Checksum: 1E8B7240DCDF357122170B12A576A5D2;455.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 6414 strings out of 493334
- 95001 string characters out of 3131088
- 190879 words of memory out of 3000000
- 9826 multiletter control sequences out of 15000+200000
+ 6411 strings out of 493334
+ 95019 string characters out of 3131088
+ 191924 words of memory out of 3000000
+ 9825 multiletter control sequences out of 15000+200000
  11335 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,32p,1480b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,9n,32p,1536b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb><C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/t
@@ -467,9 +473,9 @@ Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
 s/cm/cmsy10.pfb><C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb><C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Literature Review.pdf" (11 pages, 502915 bytes).
+Output written on "Literature Review.pdf" (10 pages, 513456 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

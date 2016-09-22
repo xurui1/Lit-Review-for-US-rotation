@@ -14,27 +14,16 @@ H.~S. Sharma, ``Pathophysiology of blood-spinal cord barrier in traumatic
   injury and repair,'' {\em Current pharmaceutical design}, vol.~11, no.~11,
   pp.~1353--1389, 2005.
 
+\bibitem{pan1997permeability}
+W.~Pan, W.~A. Banks, and A.~J. Kastin, ``Permeability of the blood--brain and
+  blood--spinal cord barriers to interferons,'' {\em Journal of
+  neuroimmunology}, vol.~76, no.~1, pp.~105--111, 1997.
+
 \bibitem{weber2015gene}
 D.~Weber-Adrian, E.~Th{\'e}venot, M.~O'Reilly, W.~Oakden, M.~Akens, N.~Ellens,
   K.~Markham-Coultes, A.~Burgess, J.~Finkelstein, A.~Yee, {\em et~al.}, ``Gene
   delivery to the spinal cord using mri-guided focused ultrasound,'' {\em Gene
   therapy}, vol.~22, no.~7, pp.~568--577, 2015.
-
-\bibitem{white2006longitudinal}
-P.~White, G.~Clement, and K.~Hynynen, ``Longitudinal and shear mode ultrasound
-  propagation in human skull bone,'' {\em Ultrasound in medicine \& biology},
-  vol.~32, no.~7, pp.~1085--1096, 2006.
-
-\bibitem{bossy2005three}
-E.~Bossy, F.~Padilla, F.~Peyrin, and P.~Laugier, ``Three-dimensional simulation
-  of ultrasound propagation through trabecular bone structures measured by
-  synchrotron microtomography,'' {\em Physics in medicine and biology},
-  vol.~50, no.~23, p.~5545, 2005.
-
-\bibitem{graves1996simulating}
-R.~W. Graves, ``Simulating seismic wave propagation in 3d elastic media using
-  staggered-grid finite differences,'' {\em Bulletin of the Seismological
-  Society of America}, vol.~86, no.~4, pp.~1091--1106, 1996.
 
 \bibitem{wachsmuth2009feasibility}
 J.~Wachsmuth, R.~Chopra, and K.~Hynynen, ``Feasibility of transient
@@ -42,15 +31,30 @@ J.~Wachsmuth, R.~Chopra, and K.~Hynynen, ``Feasibility of transient
   International Symposium on Therapeutic Ultrasound}, vol.~1113, pp.~256--259,
   AIP Publishing, 2009.
 
+\bibitem{white2006longitudinal}
+P.~White, G.~Clement, and K.~Hynynen, ``Longitudinal and shear mode ultrasound
+  propagation in human skull bone,'' {\em Ultrasound in medicine \& biology},
+  vol.~32, no.~7, pp.~1085--1096, 2006.
+
+\bibitem{nicholson1994dependence}
+P.~Nicholson, M.~Haddaway, and M.~Davie, ``The dependence of ultrasonic
+  properties on orientation in human vertebral bone,'' {\em Physics in medicine
+  and biology}, vol.~39, no.~6, p.~1013, 1994.
+
+\bibitem{fry1978acoustical}
+F.~Fry and J.~Barger, ``Acoustical properties of the human skull,'' {\em The
+  Journal of the Acoustical Society of America}, vol.~63, no.~5,
+  pp.~1576--1590, 1978.
+
+\bibitem{duck1990physical}
+F.~Duck, ``Physical properties of tissue: A comprehensive reference book
+  (academic, london),'' 1990.
+
 \bibitem{scott2014interstitial}
 S.~J. Scott, V.~Salgaonkar, P.~Prakash, E.~C. Burdette, and C.~J. Diederich,
   ``Interstitial ultrasound ablation of vertebral and paraspinal tumours:
   Parametric and patient-specific simulations,'' {\em International Journal of
   Hyperthermia}, vol.~30, no.~4, pp.~228--244, 2014.
-
-\bibitem{duck1990physical}
-F.~Duck, ``Physical properties of tissue: A comprehensive reference book
-  (academic, london),'' 1990.
 
 \bibitem{fujii1999study}
 M.~Fujii, K.~Sakamoto, Y.~Toda, A.~Negishi, and H.~Kanai, ``Study of the cause
@@ -75,15 +79,16 @@ S.~J. Scott, P.~Prakash, V.~Salgaonkar, P.~D. Jones, R.~N. Cam, M.~Han,
   heating at the bone surface,'' in {\em SPIE BiOS}, pp.~85840Z--85840Z,
   International Society for Optics and Photonics, 2013.
 
-\bibitem{fry1978acoustical}
-F.~Fry and J.~Barger, ``Acoustical properties of the human skull,'' {\em The
-  Journal of the Acoustical Society of America}, vol.~63, no.~5,
-  pp.~1576--1590, 1978.
+\bibitem{bossy2005three}
+E.~Bossy, F.~Padilla, F.~Peyrin, and P.~Laugier, ``Three-dimensional simulation
+  of ultrasound propagation through trabecular bone structures measured by
+  synchrotron microtomography,'' {\em Physics in medicine and biology},
+  vol.~50, no.~23, p.~5545, 2005.
 
-\bibitem{nicholson1994dependence}
-P.~Nicholson, M.~Haddaway, and M.~Davie, ``The dependence of ultrasonic
-  properties on orientation in human vertebral bone,'' {\em Physics in medicine
-  and biology}, vol.~39, no.~6, p.~1013, 1994.
+\bibitem{graves1996simulating}
+R.~W. Graves, ``Simulating seismic wave propagation in 3d elastic media using
+  staggered-grid finite differences,'' {\em Bulletin of the Seismological
+  Society of America}, vol.~86, no.~4, pp.~1091--1106, 1996.
 
 \bibitem{vafaeian2014finite}
 B.~Vafaeian, M.~El-Rich, T.~El-Bialy, and S.~Adeeb, ``The finite element method
