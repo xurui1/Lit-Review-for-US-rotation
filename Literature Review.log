@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.15)  22 SEP 2016 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.15)  23 SEP 2016 12:27
 entering extended mode
 **"./Literature Review.tex"
 ("Literature Review.tex"
@@ -427,7 +427,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5]
+[4]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no « in font cmr10!
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 127--133
 
  []
@@ -441,9 +444,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--141
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7] ("Literature Review.bbl" [8])
+[7] [8] ("Literature Review.bbl" [9])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
- [9]
+ [10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  ("Literature Review.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
@@ -453,13 +456,13 @@ Package rerunfilecheck Info: File `"Literature Review".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 6411 strings out of 493334
- 95019 string characters out of 3131088
+ 6412 strings out of 493334
+ 95026 string characters out of 3131088
  191924 words of memory out of 3000000
  9825 multiletter control sequences out of 15000+200000
  11335 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,32p,1536b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,9n,32p,1536b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb><C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/t
@@ -473,9 +476,9 @@ Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
 s/cm/cmsy10.pfb><C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb><C:/Users/Rui/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Literature Review.pdf" (10 pages, 513456 bytes).
+Output written on "Literature Review.pdf" (11 pages, 514410 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

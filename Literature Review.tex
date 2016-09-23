@@ -86,7 +86,7 @@ The authors found that $\nu_s$ was appproximately 500m/s greater along the CC ax
     \hline
   \end{tabular}
 \end{center}
-\caption{Speed of sound along various axes. CCm means modified results along the cranio-caudal axis, obtained by increasing the gain of the digitizer in order to repeatably be able to observe the transident preceding the main wave}
+\caption{Speed of sound along various axes. CCm means modified results along the cranio-caudal axis, obtained by increasing the gain of the digitizer in order to repeatably be able to observe the transient preceding the main wave}
 \end{table}
  
  Results for broad-band ultrasound attenuation:
@@ -102,16 +102,16 @@ The authors found that $\nu_s$ was appproximately 500m/s greater along the CC ax
     \hline
   \end{tabular}
 \end{center}
-\caption{Broad-band ultrasound attenuation along various axes. CCm means modified results along the cranio-caudal axis, obtained by increasing the gain of the digitizer in order to repeat-ably be able to observe the transident preceding the main wave}
+\caption{Broad-band ultrasound attenuation along various axes. CCm means modified results along the cranio-caudal axis, obtained by increasing the gain of the digitizer in order to repeat-ably be able to observe the transient preceding the main wave}
 \end{table}
 
 Density is independent of orientation, so in order to accurately model would we need some sort of ultrasound propagation tensor for each point? 
 
 \textbf{Notes from Acoustic properties of the human skull \cite{ fry1978acoustical}}.
-Phase speeds for `ivory tables' measured to be 2960m/s in skull bone.
+Phase speeds for `ivory tables' measured to be 2960m/s in skull bone in the outer ivory table, and 2590m/s for the inner ivory table. The outer ivory table is thick and tough, while the inner ivory table is thin and brittle. The cancellous bone between the two ivory tables is called the diploë, and the speed of sound through this tissue was measured to be  .
 
 \textbf{Notes from Physical Properties of Tissues \cite{duck1990physical}}
-I searched `vertebra' in the handbook. Density between 1300-1420kg/m$^3$ for vertebral bone. US velocity in spinal cord is 1542m/s. Trabecular bone density 1080kg/m$^3$. Cortical bone density 1990kg/m$^3$. Trabecular bone 1688-2084m/s. Really wide range of values. Cortical bone 3526m/s in femur, some measurements up to 4000m/s.
+I searched `vertebra' in the handbook. Density between 1300-1420kg/m$^3$ for vertebral bone. US velocity in spinal cord is 1542m/s. Trabecular bone density 1080kg/m$^3$. Cortical bone density 1990kg/m$^3$. Trabecular bone 1688-2084m/s. Really wide range of values. Cortical bone 3526m/s in femur, some measurements up to 4000m/s. Acoustic attenuation in verebral bone at 1Mhz is 0.17-4.4 Np/cm or 1.5-38.2 dB/cm. When modelling 
 
 
 \subsection{Computational Results}
@@ -133,7 +133,7 @@ There is little mention of the computer simulation in this paper, except that it
 
 
 \textbf{Notes from Three-dimensional simulation of ultrasound propagation through trabecular bone structures measured by synchrotron microtomography \cite{bossy2005three}.}
-Simulation of ultrasound propagation through trabecular bone samples measured using synchotron microtomography, which gives high resolution mapping of the bone structures.
+Simulation of ultrasound propagation through trabecular bone samples measured using synchrotron microtomography, which gives high resolution mapping of the bone structures.
 Used in house simulation software called 'simsonic', a finite-difference time domain algorithm often used in geophysics.This algorithm is used because it is good for both solids and fluids \cite{graves1996simulating}\\
 Cancellous (trabecular) bone is anisotropic, heterogeneous, and has two phases - interconnected plates/rods that are immersed in marrow. \\
 Properties include: attenuation varies linearly with frequency (three citations available here), sound velocity and frequency-attenuation relationship are highly correlated with bone volume fraction (porosity), velocity dispersion generally negative but occasionally positive, 2 compressional waves can propagate along a direction of a trabecular network (what does this mean?)\\
@@ -163,7 +163,7 @@ Used four long-bone geometries in the experiment - 1. half space 2. solid bone l
     \hline
   \end{tabular}
 \end{center}
-\caption{Acoustic properties of tissues used in \cite{treeby2015contribution}, originally from \cite{duck1990physical}}
+\caption{Acoustic properties of tissues used in \cite{treeby2015contribution}, primarily obtained from  \cite{duck1990physical}}
 \end{table}
 \linespread{1.0}
 The authors calculated volume rate of heat deposition $Q$ using the steady state particle velocity amplitude \textbf{u}, where the heat deposition due to compressional waves $Q_P$ is given by:
