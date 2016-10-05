@@ -106,4 +106,18 @@ B.~E. Treeby and B.~Cox, ``Modeling power law absorption and dispersion in
   {\em The Journal of the Acoustical Society of America}, vol.~136, no.~4,
   pp.~1499--1510, 2014.
 
+\bibitem{muir1992modeling}
+F.~Muir, J.~Dellinger, J.~Etgen, and D.~Nichols, ``Modeling elastic fields
+  across irregular boundaries,'' {\em Geophysics}, vol.~57, no.~9,
+  pp.~1189--1193, 1992.
+
+\bibitem{schoenberg1989calculus}
+M.~Schoenberg and F.~Muir, ``A calculus for finely layered anisotropic media,''
+  {\em Geophysics}, vol.~54, no.~5, pp.~581--589, 1989.
+
+\bibitem{van2002finite}
+R.~van Vossen, J.~O. Robertsson, and C.~H. Chapman, ``Finite-difference
+  modeling of wave propagation in a fluid-solid configuration,'' {\em
+  Geophysics}, vol.~67, no.~2, pp.~618--624, 2002.
+
 \end{thebibliography}

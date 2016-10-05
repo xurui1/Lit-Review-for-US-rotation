@@ -141,9 +141,9 @@ Bone samples from femurs, defatted, image pixels 10$\mu$m turned into a binary m
 
 
 \textbf{Notes from `The finite element method for micro-scale modeling of ultrasound propagation in cancellous bone' \cite{vafaeian2014finite}. }
-The finite-difference time-domain method has two disadvantages for modelling ultrasound propagation in bone. The first is staircase sampleing of cancellous bone by finite difference grids, which leads to wave artefacts at the solid-fluid interface within the bone. The second disadvantage is it can't satisfy the perfect-slip condition at the interface, a condition that occurs at a solid-fluid interface if there is no interfacial friction. 
+The finite-difference time-domain method (FDTD) has two disadvantages for modelling ultrasound propagation in bone. The first is staircase sampling of cancellous bone by finite difference grids, which leads to wave artefacts at the solid-fluid interface within the bone. The second disadvantage is it can't satisfy the perfect-slip condition at the interface, a condition that occurs at a solid-fluid interface if there is no interfacial friction. 
 Methods and frameworks for US propagation in bone include: Biot's theory, stratified or multilayer models, scattering model, and microscale models. 
-Micro-scale models - based on virtual geometries of trabecular networks spatially sampled and served as discrete domains for numerical simulations. The geometry is generated from $\mu$-CT images or imitations. This method has had relatively good success. 
+Micro-scale models - based on virtual geometries of trabecular networks spatially sampled and served as discrete domains for numerical simulations. The geometry is generated from $\mu$-CT images or imitations. The FEM method has had relatively good success. 
 
 \textbf{Notes from `The Contribution of Shear Wave Absorption to Ultrasound Heating in Bones: Coupled Elastic and Thermal Modeling' \cite{treeby2015contribution}.}
 In this paper, by the creators of k-wave, the authors investigate the heating of bone by ultrasound using a coupled elastic wave model and bioheat transfer equation. The volume rate of heat deposition by compressional waves and shear waves are calculated separately by splitting acoustic particle velocity using a `k-space diadic'. At normal incidence, then heating is dominated by the absorption of compressional waves. At angles of incidence greater than ten degrees, then shear wave contribution becomes significant.
@@ -175,6 +175,18 @@ and the heat deposition due to shear waves $Q_S$ is given by:
 Q_P = \alpha_S \rho_0 c_S u_S^2
 \end{equation}
 where the $S$ and $P$ subscripts denote shear and compressional waves respectively, $\alpha$ denotes the absorption coefficients, $\rho_0$ is density, $c$ is the speed of sound, and $u^s$ is $\textbf{u} \cdot \textbf{u}$. The method for separating the compressional and shear components of the particle velocity are described in \cite{treeby2014modeling}.
+
+\textbf{Notes from Modelling elastic fields across irregular boundaries \cite{muir1992modeling}}
+Simple sampling, where a finite-difference grid is overlaid on a continuous model will lead to staircase effects such as unwanted diffraction. How to work with elastic tensors? One starting point is the Schoenberg-Muir (S-M) calculus, which demonstrates the correct approach to averaging a stack of flat elastic layers with arbitrary anisotropy. In this method, a finite-difference grid is overlaid on a continuous model, but the properties of each grid point is dependent on the contents of a grid cell surrounding each point \cite{schoenberg1989calculus}. The contents of each cell is then treated as a stack of layers that can be averaged using S-M calculus. I'll describe the steps required to implement the sampling algorithm described in this article. In the S-M calculus, the layers are parameterized by thickness, density and a 6x6 stiffness
+tensor. The 6x6 stiffness tensor is clled the parameter form and can be rearranged to three 3x3 matrices called the model form. The layer parameters are mapped from the model form to a group domain using 3x3 matrix operations. Layers are combined by the addition of elements in the group domain. 
+
+\textbf{Notes from `A calculus for finely layered anisotropic media'\cite{schoenberg1989calculus}}
+There is a fair amount of math that I am not familiar with (group theory, Abelian groups, etc). The purpose of this article is to describe a method for representing an anisotropic layered medium as an isotropic homogeneous medium in the long wavelength limit. This article forms the mathematical framework for \cite{muir1992modeling}. I will read this article in more depth if I stay on this project.
+
+\textbf{Notes from `Finite-difference modeling of wave propagation in a fluid-solid configuration \cite{van2002finite}} 
+
+
+
 
 \newpage
 
